@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    position: relative;
+}
+
+header{
+    position:absolute;
+    padding: 24px;
+    z-index: 1;
+    width: 100vw;
+}
+
+.container-membership{
+    position: absolute;
+    z-index: 0;
+    top:0;
+    width: 376px;
+    height: 504px;
+    background-image: url(./public/img/CO-en-20231023-popsignuptwoweeks-perspective_alpha_website_small.jpg) ;
+    background-size: cover;
+}
+
+.membership-title{
+    padding-top: 100px;
+}
